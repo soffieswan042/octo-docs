@@ -1,5 +1,5 @@
 README
 
-This repository contains information for octo-docs. 
+This repository contains information for octo-docs. :zap:
 
 # octo-docs
