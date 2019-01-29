@@ -1,8 +1,8 @@
 workflow "New workflow" {
-  on = "create"
-  resolves = ["GitHub Action for AWS"]
+  on = "push"
+  resolves = ["Create an issue"]
 }
 
-action "GitHub Action for AWS" {
-  uses = "actions/aws/cli@aba0951d3bb681880614bbf0daa29b4a0c9d77b8"
+action "Create an issue" {
+  uses = "JasonEtco/create-an-issue@11c8e67a9a77b755021d8349484be7dd2c3092ce"
 }
